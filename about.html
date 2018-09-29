@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ecothunder | About Us</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--[if IE 9]><link rel="stylesheet" type="text/css" href="css/ie9.css"><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/ie8.css"><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css"><![endif]-->
+</head>
+<body>
+<div id="header">
+  <div>
+    <div id="logo"> <a href="index.html"><img src="images/epa.png" alt=""></a> </div>
+    <div id="navigation">
+      <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="about.html">Visualization</a></li>
+          <li><a href="">Analyses</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="content">
+  <div>
+    <div> <a href="#"><img src="images/map-in-grass2.jpg" alt="" id="datapic"></a></div>
+    <b class="first"><strong>We Have Analysed Data here for you</strong></b>
+    <p>
+      <button> Filter By Location</button>
+        <select onselect="changepic()">
+          <option>Jamestown</option>
+          <option>Nima</option>
+          <option>East Legon</option>
+          <option>Asylum Down</option>
+        </select>
+    </p>
+    <p><button> Filter By Year</button>
+      <select>
+        <option onselect="changepic()">1992</option>
+        <option>1993</option>
+        <option>1994</option>
+      </select>
+    </p>
+  </div>
+</div>
+<div id="footer">
+  <div>
+    <div class="first">
+      <h3><a href="#">Ecothunder</a></h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat eleifend arcu, sit amet rutrum lectus lobortis quis. Donec aliquam</p>
+      <div>
+        <p>Telephone. : <span>12345678-90</span></p>
+        <p>Fax : <span>23456789-01</span></p>
+        <p>Email : <span>ask@ecothunder.com</span></p>
+      </div>
+    </div>
+    <div>
+      <h3>Get Social with us!</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat eleifend arcu, sit amet rutrum lectus lobortis quis. Donec aliquam</p>
+      <div> <a href="#" class="facebook"></a> <a href="#" class="twitter"></a> <a href="#" class="linked-in"></a> </div>
+    </div>
+    <div>
+      <h3>Share your thoughts!</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat eleifend arcu, sit amet rutrum lectus lobortis quis. Donec aliquam</p>
+      <form action="#">
+        <label for="subscribe">
+          <input type="text" id="subscribe" maxlength="30" value="email address">
+        </label>
+        <input class="submit" type="submit" value="">
+      </form>
+      <p>Copyright &copy; 2011 Ecothunder Incorporated <br>
+        Website Template By <a target="_blank" href="http://www.freewebsitetemplates.com/">freewebsitetemplates.com</a></p>
+    </div>
+  </div>
+</div>
+
+<script href="index.js"></script>
+</body>
+</html>
